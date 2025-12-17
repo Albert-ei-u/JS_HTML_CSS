@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruitin Rwanda</title>
+    <link rel="stylesheet" href="styleInLearningJs.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Fruitin Rwanda</h1>
+        <nav class="nav">
+            <a href="#home">Home+</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products+</a>
+            <a href="#contact">Contact</a>
+            <a href="signup.html">signup</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Fresh. Organic. Local.</h2>
+            <p>Your trusted source of fruits across Rwanda.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Fruitin Rwanda</h2>
+        <p>
+            Fruitin Rwanda is dedicated to providing fresh, high-quality fruits
+            sourced from Rwandan farmers. We aim to promote healthy eating and
+            support local agriculture.
+        </p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Fruits</h2>
+        <div class="fruit-grid">
+            <div class="fruit-card">
+                <h3>Mangoes</h3>
+                <p>Sweet and juicy mangoes from Eastern Province.</p>
+            </div>
+
+            <div class="fruit-card">
+                <h3>Avocados</h3>
+                <p>Creamy avocados grown in Musanze and Rubavu.</p>
+            </div>
+
+            <div class="fruit-card">
+                <h3>Pineapples</h3>
+                <p>Fresh pineapples from Rulindo and Ngoma.</p>
+            </div>
+
+            <div class="fruit-card">
+                <h3>Passion Fruits</h3>
+                <p>Locally harvested passion fruits packed with flavor.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@fruitinrwanda.com</p>
+        <p>Phone: +250 799 383 261</p>
+        <h2>Inform Us</h2>
+        <form action="#" method="post">
+           <div id="form-sect"> 
+                <div>
+                    <label for="Name"></label>
+                    <input type="text" name="name" id="Name" placeholder="Tell us Your name" required>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="text" name="Email" id="email" placeholder="Enter your email" required>
+                </div>    
+                    
+                <div>
+                    <label for="pnumber"></label>
+                    <input type="text" name="phone" id="pnumber" placeholder="Enter your phone Number" required>
+                </div>
+                <div>
+                    <label for="residence"></label>
+                    <input type="text" name="reside" id="residence" placeholder="Where are you?" required>
+                </div>
+                <p id="notify"></p>    
+                <button type="button" onclick="myFunction()">submit</button>
+            </div>    
+        </form>
+       
+    </section>
+
+    <footer class="footer">
+        <div class="newsletter-section">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <div class="newsletter-icon">📨</div>
+                    <div class="newsletter-text">
+                        <h3>Sign Up to Get Updates &</h3>
+                        <h3>News About Us.</h3>
+                    </div>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Email Address" class="email-input">
+                    <button class="subscribe-btn">SUBSCRIBE</button>
+                </div>
+            </div>        
+        </div>
+
+        <!--main footer content-->
+        <div class="footer-main">
+            <div class="footer-container">  
+                <div class="footer-column about-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🍃</span>
+                        <span class="logo-text">fruitin</span>
+                    </div>    
+                    <p class="footer-description">
+                        we provide specialized winterization services to safeguard your food during 
+                        the off-season, and when spring arrives, we handle the thorough opening process.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><img src="../fruitin/images/facebook.png" alt="facebook"></a>
+                        <a href="#" class="social-icon"><img src="../fruitin/images/twitter.png" alt="twitter"></a>
+                        <a href="#" class="social-icon"><img src="../fruitin/images/linkedin.png" alt="linkedin"></a>
+                        <a href="#" class="social-icon"><img src="../fruitin/images/instagram.png" alt="instagram"></a>
+                        <a href="#" class="social-icon"><img src="../fruitin/images/icons8-youtube-50.png" alt="youtube"></a>
+                    </div>
+                </div>
+
+                <!--footer-Categories-column-->    
+                <div class="footer-column">
+                    <h4 class="footer-heading">
+                        <span class="heading-icon">🍃</span>Categories
+                    </h4>
+                    <ul class="footer-links">
+                        <li><a href="#">&rarr;Fresh Fruits</a></li>
+                        <li><a href="#">&rarr;Fruit Juice</a></li>
+                        <li><a href="#">&rarr;Vegetables</a></li>
+                        <li><a href="#">&rarr;Meat & Fish</a></li>
+                        <li><a href="#">&rarr;Organic Fish</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">
+                        <span class="heading-icon">🍃</span>Quick Links
+                    </h4>
+                    <ul class="footer-links">
+                        <li><a href="#">&rarr;About Us</a></li>
+                        <li><a href="#">&rarr;Portfolio</a></li>
+                        <li><a href="#">&rarr;Help & FAQs</a></li>
+                        <li><a href="#">&rarr;Blog</a></li>
+                        <li><a href="#">&rarr;Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">
+                        <span class="heading-icon">🍃</span>Contact US
+                    </h4>
+                    <ul class="contact-info">
+                        <li>
+                            <span class="contact-icon">📍</span>
+                            <span>kN 14, <br>Kigali Rwanda</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">📞</span>
+                            <span>+(250)-79938-3261 <br>+(250)-79933-4500</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">✉️</span>
+                            <span>help24/7@fruitin.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p class="copyright">
+                    copyright &copy; 2025 <span class="brand-name">Fruitin.</span> All Rights Reserved.
+                </p>
+                <div class="payment-methods">
+                    <img src="../fruitin/images/paypal.png" alt="Paypal">
+                    <img src="../fruitin/images/logo.png" alt="masterCard">
+                    <img src="../fruitin/images/visa.png" alt="visa">
+                    <img src="../fruitin/images/american-express.png" alt="American Express">
+                    <img src="../fruitin/images/discover.png" alt="Discover">
+                </div>
+            </div>
+            <button class="scroll-top">⬆</button>
+        </div>
+    </footer>
+<script src="app.js"></script>
+</body>
+</html>
